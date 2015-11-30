@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	git init will create a respository in any directory iam in.

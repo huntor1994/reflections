@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+No  idea.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+No idea again.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because git's files connect each others,so they should be track together.
+How can you use the commands git log and git diff to view the history of files?
+	git log (to see the details)
+	git diff first_ID second_ID(to see the differences)
+	git clone
+Now that you have your workspace set up, what do you want to try using Git for?
+ 	CHANGE BACK THE TEXT COLOR!!
+
+
+ ##################Git command review#######################
+
+Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+
+git clone will do this. It takes one argument - the url of the repository to copy. 
+
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout will do this. It takes one argument - the commit ID to restore. 
+
+
+Show the commits made in this repository, starting with the most recent.
+
+git log will do this. It doesn't take any arguments.
