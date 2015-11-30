@@ -1,2 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 	git init will create a respository in any directory iam in.
+git init
+git add:add files to staging area
+git status
+staging area:medium from working directory to commit
+working directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	separate the files 
+	
